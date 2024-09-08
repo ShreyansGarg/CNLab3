@@ -30,10 +30,9 @@ This project is a sophisticated monitoring and control system for a fleet of aut
    git clone https://github.com/yourusername/drone-control-system.git
    cd drone-control-system
 
-2. Compile and Run Server
+2. Compile and Run Server & Drone
+  ```bash
   g++ Server1.cpp -o server -lws2_32 -pthreads
   ./server
-
-3. Compile and Run Drone
   g++ Drone.cpp -o Drone -lws2_32 -pthreads
   ./Drone <drone_name> <drone_port>
